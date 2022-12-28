@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <script>
+            var name = prompt("Enter Your Name");
+            var ch = parseInt(prompt("Enter char position"));
+
+            var result = name.charAt(ch);
+            alert(result);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <input type="text" onmouseout="show()">
+
+        <script>
+            function show(){
+                alert("Mouse Out");
+            }
+        </script>
+    </body>
+</html>

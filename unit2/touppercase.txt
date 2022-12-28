@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <script>
+            var s = prompt("Enter String :");
+
+            var result = s.toUpperCase();
+            
+            alert("Upper Case String is : " + result);
+        </script>
+    </body>
+</html>

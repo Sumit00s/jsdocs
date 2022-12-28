@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <input type="button" value="openWindow()" onclick="show()">
+
+        <script>
+            function show(){
+                window.open('https://www.youtube.com','youtube','width=500','height=200');
+            }
+        </script>
+    </body>
+</html>
