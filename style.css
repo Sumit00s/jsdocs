@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  
+  header .logo {
+    font-size: 40px;
+    color: #000;
+    margin-left: 80px;
+  }
+  
+  header .logo span {
+    color: #f7df1e;
+  }
+
+  header .navbar{
+    margin-right: 50px;
+  }
+  
+  header .navbar a {
+    font-size: 22px;
+    color: #000;
+    margin: 0px 25px;
+  }
+  
+  header .navbar a:hover {
+    border-bottom: 2px solid #f7df1e;
+  }
+  
+  header input {
+    display: none;
+  }
+  
+  header label {
+    font-size: 30px;
+    color: var(--purple);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+
+#home{
+    background-color: #fffaeb;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.heading{
+    font-size: 50px;
+    margin-left: 120px;
+}
+
+.heading span{
+    color: #f7df1e;
+}
+
+#headingBanner{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 25px;
+}
+
+#headingBanner{
+    text-align: center;
+    color: #f7df1e;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    margin-bottom: 20px;
+}
+
+#headingBanner h3{
+    letter-spacing: 2px;
+}
+
+#units{
+    max-width: 1300px;
+    margin: auto;
+    overflow: auto;
+    padding: 20px;
+}
+
+#units .unitHeading{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.unitHeading span{
+    margin-left: 15px;
+}
+
+.codeBox{
+    width: 250px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.codeBox h2{
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.codeBox .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons button{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 70px;
+    height: 50px;
+    margin: 0px 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons a{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 70px;
+    height: 50px;
+    margin: 0px 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.unit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+    overflow-x: scroll;
+    
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #f7df1e;
+    border-radius: 10px;
+}
+
+#subscribe{
+    margin-bottom: 50px;
+}
+
+.subscribe{
+    background-color: #fff9e6;
+    width: 800px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    letter-spacing: 1px;
+}
+
+.subscribe h1 span{
+    color: #f7df1e;
+}
+
+.subscribe input{
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    outline: none;
+    border-radius: 2px;
+}
+
+.subscribe .btn{
+    cursor: pointer;
+    background-color: #f7df1e;
+    color: #fff;
+}
+
+footer{
+    background-color: #f7df1e;
+    color: #fff;
+    padding: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer .s-icons{
+    margin-top: 10px;
+}
+
+footer .s-icons .fab{
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+    header .logo{
+        margin-left: 10px;
+    }
+
+    header label {
+      visibility: visible;
+      opacity: 1;
+      margin-right: 10px;
+    }
+  
+    header .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 2px 25px;
+      border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      transform-origin: top;
+      transform: scaleY(0);
+      opacity: 0;
+    }
+  
+    header .navbar a {
+      display: block;
+      margin: 25px 10px;
+      font-size: 20px;
+      border-bottom: 2px solid #f7df1e
+    }
+  
+    header input:checked ~ .navbar {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  
+    header input:checked ~ label::before {
+        content: "\f00d";
+      }
+
+    .heading{
+        font-size: 40px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .header-img img{
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    #home{
+        flex-direction: column-reverse;
+    }
+
+    #headingBanner{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        padding: 15px;
+    }
+
+    #headingBanner h3{
+        font-size: 25px;
+    }
+
+    .unitHeading span{
+        margin-left: 15px;
+        font-size: 22px;
+    }
+
+    #subscribe{
+        margin-bottom: 50px;
+    }
+    
+    .subscribe{
+        background-color: #fff9e6;
+        width: 330px;
+        padding: 30px;
+        margin: -40px auto 40px;
+        border-radius: 20px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .subscribe h1{
+        font-size: 20px;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+        letter-spacing: 1px;
+    }
+    
+    .subscribe h1 span{
+        color: #f7df1e;
+    }
+    
+    .subscribe input{
+        padding: 10px 20px;
+        font-size: 20px;
+        border: none;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        outline: none;
+        border-radius: 2px;
+        display: block;
+    }
+    
+    .subscribe .btn{
+        cursor: pointer;
+        background-color: #f7df1e;
+        color: #fff;
+        width: 100%;
+        margin-top: 20px;
+    }
+  }
+  

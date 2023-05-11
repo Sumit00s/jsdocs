@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <input type="button" value="onClickBtn()" onclick="show()">
+
+        <script>
+            function show(){
+                alert('Button is Clicked');
+            }
+        </script>
+    </body>
+</html>

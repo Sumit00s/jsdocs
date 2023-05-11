@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <input type="text" onkeyup="show()" id='in'>
+
+        <script>
+            function show(){
+                var i = document.getElementById("in").value;
+
+                alert(i);
+            }
+        </script>
+    </body>
+</html>

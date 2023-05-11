@@ -1,0 +1,7 @@
+<html>
+    <body>
+        <script>
+            alert("Hello From Alert Box...");
+        </script>
+    </body>
+</html>

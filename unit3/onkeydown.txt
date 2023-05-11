@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <input type="text" onkeydown="show()">
+
+        <script>
+            function show(){
+                alert("Key is Down");
+            }
+        </script>
+    </body>
+</html>

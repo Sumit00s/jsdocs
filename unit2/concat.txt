@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <script>
+            let name1 = prompt("Enter String 1");
+            let name2 = prompt("Enter String 2");
+            var con = name1.concat(name2);
+
+            alert("Concat String is : "+con);
+        </script>
+    </body>
+</html>

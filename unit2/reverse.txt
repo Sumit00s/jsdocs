@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            var no = parseInt(prompt("Enter No of Array Elemnets :"));
+
+            var arr = new Array(no);
+
+            for(var i = 0; i<no; i++){
+                arr[i] = parseInt(prompt("Enter Element No " + (i+1)));
+            }
+
+            var rev = arr.reverse();
+
+            alert("Reverse Array is :" + rev);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <input type="text" onmouseover="show()">
+
+        <script>
+            function show(){
+                alert("Mouse Over function...");
+            }
+        </script>
+    </body>
+</html>

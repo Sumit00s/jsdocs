@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            var no = parseInt(prompt("Enter No of Array Elements :"));
+
+            var arr = new Array(no);
+
+            for(var i = 0; i<no; i++){
+                arr[i] = parseInt(prompt("Element NO " + (i+1)));
+            }
+
+            var p = arr.pop();
+
+            alert("Array After Pop() : " + arr);
+        </script>
+    </body>
+</html>
